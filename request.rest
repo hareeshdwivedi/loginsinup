@@ -1,0 +1,17 @@
+POST http://192.168.43.254:5000/users/register HTTP/1.1
+content-type: application/json
+
+{
+    "username": "test",
+    "email": "tesfasdfasdfasft@gmail.com",
+    "password": "test"
+}
+
+###
+
+GET http://192.168.43.254:5000/users
+
+
+###
+
+GET http://192.168.43.254:5000/users/usersList
